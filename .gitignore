@@ -1,0 +1,6 @@
+.stryker-tmp
+coverage
+jest-html-reporters-attach
+node_modules
+reports
+jest_html_reporters.html
