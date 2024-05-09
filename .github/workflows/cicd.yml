@@ -37,6 +37,7 @@ jobs:
     - run: npm ci
     - run: npm run test
   deploy:
+    if: github.ref == 'refs/heads/develop'
     needs: test
     environment:
       name: github-pages
